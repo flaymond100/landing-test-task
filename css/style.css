@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    line-height: 24px;
+} 
+
+
+/* HEADER */
+
+#header-section{
+    margin: 239px 384px;
+    width: 1312px;
+}
+
+#header-section-mobile {
+    display: none;
+}
+
+.header-main-div h1{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #4F586B;
+}
+
+.headers-cards{
+    display: inline-flex;
+    font-family: Roboto;
+    font-style: normal;
+    color: #4F586B;
+}
+
+.headers-cards div{
+    margin-right: 32px;
+
+}
+
+.headers-cards h3{
+    margin: 36px 0 16px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.headers-cards p{
+    font-size: 16px;
+
+}
+
+
+/* BODY WITH IMAGE */
+
+#body-image{
+    background-image: url('../images/desktop/young-professional-woman-sitting-stair-front-glass-building-holding-laptop-lap-talking-mobile-phone.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+#body-image p{
+    margin-bottom: 32px;
+}
+
+#body-image button{
+    margin-bottom: 104px;
+}
+
+.body-text-container{
+    margin-left: 384px;
+    padding-top: 104px;
+    color: white;
+    width: 416px;
+}
+
+.body-text-container h1{
+    margin: 0;
+    font-size: 48px;
+}
+
+.body-text-container h1{
+    margin-bottom: 32px;
+}
+
+.request-info-btn{
+    background-image: linear-gradient(to left, #9C8BEA 1.49%, #544695 105.35%);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 183px;
+    box-shadow: 0 0 5px #8167E3;
+}
+
+
+/* CAROUSEL SECTION */
+
+#carousel-section {
+    margin: 120px 384px;
+    color: #4F586B;
+
+}
+
+#carousel-section h2{
+    margin: 32px 0 24px;
+    text-align: center;
+}
+
+.glider-prev{
+    top: 23% !important;
+    left: -37px !important;
+}
+
+.glider-next{
+    top: 23% !important;
+    right: -37px !important;
+}
+
+.nav-list{
+    text-align: center;
+}
+
+.glider-dots button{
+    width: 10px;
+    height: 10px;
+}
+
+
+/* REQUEST INFO FORM */
+
+#request-info{
+    display: flex;
+    margin: 0 384px;
+    width: 1312px;
+}
+
+.info-text{
+    color: #4F586B;
+}
+
+.contact-form-div{
+    display: flex;
+    width: 752px;
+    margin-left: 32px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contact-form input{
+    font-size: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    width: 752px;
+    opacity: 0.2;
+    font-style: italic;
+    color: #8B92AB ;
+    border:  dashed #8167E3;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+.contact-form input:focus{
+    outline: none !important;
+    color: black;
+    opacity: 1;
+}
+
+.contact-form button{
+    margin-top: 48px;
+}
+
+
+/* FOOTER */
+
+#footer{
+    background-color: #3B455A;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#footer p{
+    padding: 32px 0;
+    margin: 0;
+    color: white;
+}
+
+
+
+@media screen  and (max-width: 375px){
+    
+    /* HEADER */
+
+    #header-section {
+        margin: 0;
+        display: none;
+    }
+
+    #header-section-mobile {
+        margin-left: 16px;
+        display: block;
+        color: #4F586B;
+    }
+
+    .header-main-div h1{
+        font-size: 24px;
+    }
+
+    .header-main-div p{
+        font-size: 14px;
+    }
+
+    #glider-1 .dots{
+        justify-content: left !important;
+    }
+
+    .glider-dots button{
+        width: 8px;
+        height: 8px;
+    }
+
+
+     /* BODY WITH IMAGE */ 
+
+    #body-image{
+        background-image: url('../images/mobile/young-professional-woman-sitting-stair-front-glass-building-holding-laptop-lap-talking-mobile-phone\ 1.png') ;
+        background-size: cover;
+        margin-top: 72px;
+    }
+
+    #body-image p{
+        margin-bottom: 24px;
+    }
+    
+    #body-image button{
+        margin-bottom: 59px;
+    }
+
+    .body-text-container {
+        margin-left: 16px;
+        padding-top: 173px;
+        width: 0;
+    }
+
+    .body-text-container h1 {
+        width: 327px;
+        margin-bottom: 0;
+        font-size: 28px;
+    }
+
+    .body-text-container p {
+        width: 327px;
+        margin-bottom: 34px;
+    }
+
+
+    /* CAROUSEL SECTION */
+
+    #carousel-section{
+        margin: 0 0 0 16px;
+    }
+
+    #carousel-section img{
+        border-radius: 20px;
+    }
+    
+    .glider-prev {
+        display: none;
+    }
+
+    .glider-next {
+        display: none;
+    }
+
+    .glider-track div{
+        margin-right: 16px;
+    }
+
+
+    /* REQUEST INFO FORM */
+
+    #request-info{
+        flex-direction: column;
+        margin: 0 16px;
+        width: auto;
+    }
+
+    .contact-form-div {
+        display: flex;
+        overflow: hidden;
+        width: 325px;
+        margin-left: 0;
+    }
+
+    .info-text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+
+    .contact-form{
+        display: block;
+        text-align: center;
+        width: 325px;
+    }
+
+
+    /* FOOTER */
+
+    #footer{
+        margin-top: 64px;
+    }
+}
